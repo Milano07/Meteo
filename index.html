@@ -3,33 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Meteo App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 20:27, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>⛅12 ℃</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Milano07" target="_blank">Yuliia Borysova</a>,
-      is open-sourced on
-      <a href="https://github.com/Milano07/Meteo" target="_blank">GitHub</a> and
-      website hosted on
-      <a href="https://meteo-new.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 20:27, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>⛅12 ℃</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Milano07" target="_blank">Yuliia Borysova</a
+        >, is open-sourced on
+        <a href="https://github.com/Milano07/Meteo" target="_blank">GitHub</a>
+        and website hosted on
+        <a href="https://meteo-new.netlify.app/" target="_blank">Netlify</a>
+      </footer>
+    </div>
   </body>
 </html>
